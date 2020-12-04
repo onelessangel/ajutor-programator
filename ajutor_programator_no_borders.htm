@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <title>Ajutor pentru Programator</title>
+  <link rel="icon" href="lsac-icon.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="apple-lsac-icon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style_no_borders.css">
+  <script type="text/javascript" src="myScripts.js"></script>
+</head>
+
+<body>
+
+  <!-- <div style="height: 100px; width: 50%; border: 2px solid black;">
+  <button onclick="myFunction123()">Try it</button>
+  <p id="demo"></p>
+  <script>
+  function myFunction123() {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+  }
+  </script>
+  </div> -->
+
+  <div class="container-fluid">
+    <div class="row" style="border: 5px solid transparent;">
+
+      <div  class="col-sm-12" style="border: 3px solid transparent; display: flex;">
+        <div class="ajutor">
+          <img src="ajutor.png" alt="site logo">
+        </div>
+
+        <div class="basic_info">
+          <img class="tiny_menu" src="menu.png" alt="menu" title="Menu" style="border: 4px solid transparent;">
+          <button type="button" class="btn button2 special">Logare</button>
+          <button type="button" class="btn button_generic special" style="margin-left: 3px;">Creare cont</button>
+          <button type="button" class="btn button_generic special">Contact</button>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row" style="border: 10px solid transparent;">
+
+      <div class="col-sm-6 dotted_pink" style="border: 5px dotted transparent;">
+        <div class="container-fluid" style="border: 10px solid transparent; margin-left: 3%;">
+          <div class="row" style="border: 2px solid transparent;">
+            <div class="col-sm-12 main_left">
+              <p class="advertisement">Cumpăratul de teme nu a fost niciodată mai simplu!</p>
+            </div>
+          </div>
+
+          <div class="row" style="border: 2px solid transparent;">
+            <div class="col-sm-12">
+              <p class="description">Platforma ideală pentru studenții de la Politehnică cu portofele pline, care au nevoie urgent de un înger care să le repare nota de intrare în examen.</p>
+            </div>
+          </div>
+
+          <div class="row" style="border: 2px solid transparent;">
+            <div class="col-sm-12 stack_it_up">
+                <button type="button" title="Click me!" class="btn button2 button_with_overlay" onclick="openOverlay()">Vreau să cumpăr</button>
+                <button type="button" class="btn button3">Vreau să fac teme pentru alții</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-6 lightblue" style="border: 5px dotted transparent; height: 100%;">
+          <img src="studying.png"  alt="girl studying" class="study">
+      </div>
+
+    </div>
+
+    <div class="row" style="border: 5px solid transparent;">
+      <div class="col-sm-12" style="height: 10vw"></div>
+    </div>
+
+    <div class="row instructions" style="border: 5px solid transparent;">
+      <div class="container-fluid" style="border: 3px solid transparent;">
+
+        <div class="row" style="border: 3px solid transparent;">
+          <div class="col-sm-12" style="border: 2px dotted transparent;">
+            <p class="question">Cum funcționează?</p>
+          </div>
+        </div>
+
+        <div class="row" style="border: 3px solid transparent;">
+          <div class="col-sm-4 from_the_other_side" style="border: 2px dotted transparent;">
+            <div class="what_u_gotta_do" style="border: 2px solid transparent;">
+              <table class="center">
+                <tr>
+                  <td class="to_the_top">
+                    <div class="numbers" style="border: 2px dotted transparent; position: static; top: 0px;">
+                      <p>1</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text" style="border: 2px dotted transparent;">
+                      <p>Realizezi un cont pe platformă în care introduci câteva detalii personale (nu vă faceți griji, profesorii nu or să va descopere) și materiile la care ai nevoie de ajutor.</p>
+                    </div>
+                  </td>
+              </tr>
+            </table>
+            </div>
+          </div>
+
+          <div class="col-sm-4 from_the_other_side" style="border: 2px dotted transparent;">
+            <div class="what_u_gotta_do" style="border: 2px solid transparent;">
+              <table class="center">
+                <tr>
+                  <td style="align: top;">
+                    <div class="numbers" style="border: 2px dotted transparent;">
+                      <p>2</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text" style="border: 2px dotted transparent;">
+                      <p>Străbați platforma în căutare de studenți care oferă servicii la materiile dorite sau te rogi la Sfântul 5 să primești mesaj de la cineva care te descoperă și e dispus să te salveze.</p>
+                    </div>
+                  </td>
+              </tr>
+            </table>
+            </div>
+          </div>
+
+          <div class="col-sm-4 from_the_other_side" style="border: 2px dotted transparent;">
+            <div class="what_u_gotta_do" style="border: 2px solid transparent;">
+              <table class="center">
+                <tr>
+                  <td style="align: top;">
+                    <div class="numbers" style="border: 2px dotted transparent; margin-top: -150%;">
+                      <p>3</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text" style="border: 2px dotted transparent;">
+                      <p>După ce stabiliți o sumă care oricum este de zeci de ori mai mare decât la alte universități, aștepti ca noul vostru amic să vă încarce soluția pe platformă. Jumătate din plată oferiți în avans, restul după ce vă vedeți intrat în examen.</p>
+                    </div>
+                  </td>
+              </tr>
+            </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="border: 3px solid transparent;">
+          <div class="col-sm-12" style="height: 6vw;"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="border: 5px solid transparent;">
+      <div class="col-sm-12">
+        <div class="container-fluid form">
+          <div class="row">
+            <div class="col-sm-6" style="border: 3px dotted transparent;">
+              <div class="row">
+                <div class="col-sm-12" style="border: 5px solid transparent;">
+                  <p class="question_form">Ai tupeu și crezi că poți să aduci îmbunătățiri la platformă?</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12" style="border: 2px solid transparent;">
+                  <p class="description_form">Trimite-ne un mail și roagă-te să nu ne apuce râsul când vedem ce îți trece prin cap.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6" style="border: 3px dotted transparent;">
+
+              <div class="container-fluid">
+                <form action="/action_page.php" class="bootstrap_form">
+                  <div class="form-group" style="border:3px solid transparent;">
+                    <label for="name" class="form_category">Nume</label>
+                    <input type="name" class="form-control form_input" id="name" name="name">
+                  </div>
+                  <div class="form-group" style="border:3px solid transparent; padding-top: 2%;">
+                    <label for="email" class="form_category">Email</label>
+                    <input type="email" class="form-control form_input" id="email" name="email">
+                  </div>
+                  <div class="form-group" style="border:3px solid transparent; padding-top: 2%;">
+                    <label for="randomness" class="form_category">Înjurătura</label>
+                    <input type="randomness" class="form-control form_input" id="randomness" name="randomness" style="height: 82px;">
+                  </div>
+                </form>
+                <button type="button" class="btn button2 send">Trimite</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row footer" style="border: 5px solid transparent;">
+      <div class="container-fluid" style="border: 2px solid transparent;">
+        <div class="row" style="border: 2px solid transparent;">
+          <div class="col-sm-12" style="border: 2px solid transparent;">
+            <table class="center logos">
+              <tr>
+                <td>
+                  <a href="https://www.instagram.com/lsacbucuresti/" target="_blank" title="Instagram"><img src="instagram.png" alt="instagram logo"></a>
+                </td>
+
+                <td style="padding-left: 12px; padding-right: 12px;">
+                  <a href="https://twitter.com/lsacbucuresti" target="_blank" title="Twitter"><img src="twitter.png" alt="twitter logo"></a>
+                </td>
+
+                <td>
+                  <a href="https://www.facebook.com/LsacBucuresti/" target="_blank" title="Facebook"><img src="facebook.png" alt="facebook logo"></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class = "row " style="border: 2px solid transparent;">
+          <div class="col-sm-12" style="border: 2px solid transparent;">
+            <p class="center copyright">Copyright 2020 | Cine ne pârăște o mierlește.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="myOverlay" class="overlay">
+    <div class="overlay-content" style="border: 2px solid transparent;">
+      <div class="container-fluid" style="border: 2px solid transparent;">
+          <div class="row" style="border: 2px solid #92E3A9; background: #92E3A9; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <div class="col-sm-12" style="border: 2px solid #92E3A9; background: #92E3A9; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+              <div class="overlay-header">
+                <p style="margin-top: 20px; border:2px solid transparent; float: left; margin-bottom: 20px;">Exprimă-ți frustrările</p>
+                  <button type="button" class="close" aria-label="Close" onclick="closeOverlay()" style="margin-top: 20px; margin-right: 15px;">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="border: 2px solid white; background: #FFFFFF;">
+            <div class="col-sm-12" style="border: 2px solid #FFFFFF; background: #FFFFFF;">
+              <div class="overlay-form">
+                <form action="/action_page.php" class="bootstrap_form">
+                  <div class="form-group" style="border:3px solid white">
+                    <select class="form-control form_input" id="materie" name="materie" placeholder="Alege materia">
+                      <option default>Alege materia</option>
+                    </select>
+                  </div>
+                  <div class="form-group" style="border:3px solid white; padding-top: 2%;">
+                    <input type="proiect" class="form-control form_input" id="proiect" name="proiect" placeholder="Titlul proiectului">
+                  </div>
+                </form>
+                <button type="button" class="btn button2 send-overlay">Încarcă</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="border: 2px solid #92E3A9; background: #92E3A9;">
+            <div class="col-sm-12" style="border: 2px solid #92E3A9; background: #92E3A9;">
+              <div class="overlay-header">
+                <p style="margin-top: 20px;">Plângeri introduse până acum.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="border: 2px solid white; background: #FFFFFF; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+            <div class="col-sm-12 overlay-end" style="border: 2px solid white; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
